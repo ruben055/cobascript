@@ -1,4 +1,4 @@
 steps:
 - id: build
   name: gcr.io/$PROJECT_ID/docker-compose
-  args: ['./script/startup.sh']
+  args: ['./startup.sh']
