@@ -1,4 +1,6 @@
 steps:
 - id: build
   name: gcr.io/$PROJECT_ID/docker-compose
-  args: ['./startup.sh']
+  args:
+  - run 
+  - startup.sh
